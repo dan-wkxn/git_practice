@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS selectors and specificity</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+
+  <body>
+    <h1>CSS selectors and specificity</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <span class="code">.column</span>
+                </td>
+                <td>Class selector</td>
+                <td>Can be reusable & applied to many elemnts. They are denoted with a period before the class.</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">#first-item</span>
+                </td>
+                <td>CSS id selector</td>
+                <td>Should be unique to style only one element. They are denoted with a hash sign.</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">h1, h2</span>
+                </td>
+                <td>Groups of CSS selectors</td>
+                <td>Match multiple selectors to the same CSS rule. Use comma to seperate.</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <span class="code">h3.section-heading</span>
+                </td>
+                <td>Chaining selectors</td>
+                <td>Chained so that rule sets apply only to elements that match all criteria.</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">p</span>
+                </td>
+                <td>CSS type selectors</td>
+                <td>To match all elements of a given type or tag name. They are matched regardless of their nesting level in the HTML.</td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="code">.calendar-cell</span>
+                </td>
+                <td>CSS class selectors</td>
+                <td>Matches elements based in the contents of their class attribute. To select ir we need a period infront.</td>
+            </tr>
+        </tbody>
+    </table>
+    
+  </body>

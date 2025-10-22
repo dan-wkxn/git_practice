@@ -1,0 +1,153 @@
+body {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+    }
+    .location-tiles {
+        flex-direction: column;
+    }
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: seashell;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.menu {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    width: 1400px;
+}
+
+.img-main {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.img-main img {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+.text-overlay h2,
+.text-overlay h4 {
+    margin: 5px 0;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+.teas {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.img p {
+    margin-top: 10px;
+}
+
+.locations {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    height: 500px;
+}
+
+.locations img {
+    width: 100%;
+    max-width: 1200px;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.location-tiles {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the tiles */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 80%; /* Makes the tiles container smaller, fitting nicely over the image */
+    align-content: center;
+    margin-top: 15px;
+}
+
+.location-tile {
+    background-color: black;
+    color: seashell;
+    width: 300px;
+    height: 250px; /* Optional: or a fixed height like 200px */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* This centers the content vertically */
+}
+
+.location-tile p {
+    font-size: 20px;
+}
+
+.text-overlay2 {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    width: 1200px;
+}
+
+
+  .contact {
+    height: 200px;
+  }
+
+  .footer p {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 18px;
+  }

@@ -1,0 +1,92 @@
+body {
+    font-family: 'Playwrite AU SA';
+    margin: 0 10%;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.butterfly-blue {
+    background-color: #38ACEC;
+    color: white;
+}
+
+.firebrick {
+    background-color: #800517;
+    color: white;
+}
+
+.dark-orchid {
+    background-color: #7D1B7E;
+    color: white;
+}
+
+.teal {
+    background-color: #008080;
+    color: white;
+}
+
+
+.font-panel {
+    display: inline-block;
+    width: 45%;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.playwrite-australia-sa {
+    font-family: 'Playwrite AU SA', sans-serif;
+}
+
+.whisper {
+    font-family: 'Whisper', sans-serif;
+}
+
+.caveat {
+    font-family: 'Caveat', sans-serif;
+}
+
+.text-panel h1 {
+    font-weight: 600;
+    font-size: 26px;
+    font-family: 'Playwrite AU SA', sans-serif;
+}
+
+.text-panel h2 {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Whisper', sans-serif;
+}
+
+.text-panel p {
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Caveat', sans-serif;
+}
+
